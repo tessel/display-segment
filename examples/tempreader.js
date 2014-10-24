@@ -1,5 +1,5 @@
 var tessel = require('tessel');
-var segmentlib = require('./segment');
+var segmentlib = require('../');
 var climatelib = require('climate-si7020');
 
 var led = segmentlib.use(tessel.port['GPIO']);
