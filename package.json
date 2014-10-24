@@ -1,0 +1,12 @@
+{
+  "name": "segment-sparkfun",
+  "version": "1.0.0",
+  "description": "Controls segment LED display by Sparkfun.",
+  "main": "index.js",
+  "keywords": ["segment", "led", "sparkfun", "tessel"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Cameron Ryan <tim@technical.io>",
+  "license": "MIT"
+}
