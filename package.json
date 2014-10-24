@@ -1,8 +1,9 @@
 {
   "name": "display-segment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control a segmented LED display by Sparkfun.",
   "main": "index.js",
+  "repository": "tessel/display-segment",
   "keywords": ["segment", "led", "sparkfun", "tessel"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
