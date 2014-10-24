@@ -64,13 +64,6 @@ SegmentLED.prototype.decimal = function (value, next) {
 	this.i2c.send(new Buffer([0x77, value]), next);
 }
 
-SegmentLED.prototype.update = function (value, next) {
-	this.segment(0, value & 0x7f);
-	this.segment(1, (value >> 8) & 0x7f);
-	this.segment(2, (value >> 16) & 0x7f);
-	this.segment(3, (value >> 24) & 0x7f);
-}
-
 SegmentLED.prototype.display = function (number, opts, next) {
 	if (typeof opts == 'function' ) {
 		next = opts;
