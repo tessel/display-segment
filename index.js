@@ -83,7 +83,7 @@ SegmentLED.prototype.display = function (number, opts, next) {
 	number = Math.floor(number / 10);
 	if (opts.leadingZero != false || number > 0) this.digit(1, number % 10); else this.digit(1, null);
 	number = Math.floor(number / 10);
-	if (opts.leadingZero != false || number > 0) this.digit(0, number % 10, next); else this.digit(0, null);
+	if (opts.leadingZero != false || number > 0) this.digit(0, number % 10, next); else this.digit(0, null, next);
 }
 
 exports.use = function (hardware) {

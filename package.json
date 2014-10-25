@@ -1,6 +1,6 @@
 {
   "name": "display-segment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control a segmented LED display by Sparkfun.",
   "main": "index.js",
   "repository": "tessel/display-segment",
