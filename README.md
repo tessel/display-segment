@@ -1,5 +1,7 @@
 # display-segment
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tessel/display-segment.svg)](https://greenkeeper.io/)
+
 [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/tessel/project/blob/master/CONDUCT.md)
 
 Controls a [7-segment Sparkfun Serial Display](https://www.sparkfun.com/products/11442).
